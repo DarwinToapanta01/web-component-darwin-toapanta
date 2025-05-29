@@ -47,6 +47,8 @@ El componente expone un `slot` con el nombre `footer-notes`. Cualquier contenido
 ![Captura de la ejecucion y mostrando las tarjetas](capturas/ejecucion.png)
 **Código HTML donde instacio el componente <course-module> y uso de slots:**
 ![Captura de pantalla de múltiples course-module](capturas/html.png)
+**Código Fuente del Web Component <course-module> (course-module.js):**
+![Captura de pantalla donde creamos el componente](capturas/componente.png)
 
 ---
 

@@ -1,5 +1,3 @@
-// course-module.js
-
 class CourseModule extends HTMLElement {
     constructor() {
         super();
