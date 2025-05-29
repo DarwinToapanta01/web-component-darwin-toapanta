@@ -18,11 +18,11 @@ Se ha incluido un `slot` para permitir la inserción de contenido adicional y fl
 
 El componente `<course-module>` acepta los siguientes atributos para personalizar su contenido:
 
-* **`title`** (obligatorio): El título del módulo del curso.
+* **`titulo`** (obligatorio): El título del módulo del curso.
     * Ejemplo: `title="Introducción a Web Components"`
-* **`description`** (obligatorio): Una breve descripción del contenido del módulo.
+* **`descripcion`** (obligatorio): Una breve descripción del contenido del módulo.
     * Ejemplo: `description="Aprende los fundamentos para construir componentes web reutilizables."`
-* **`duration`** (obligatorio): La duración estimada del módulo.
+* **`duracion`** (obligatorio): La duración estimada del módulo.
     * Ejemplo: `duration="2 horas y 30 minutos"`
 * **`link`** (obligatorio): La URL a la que el botón de acceso debe dirigir al usuario.
     * Ejemplo: `link="https://ejemplo.com/modulo"`
@@ -43,9 +43,9 @@ El componente expone un `slot` con el nombre `footer-notes`. Cualquier contenido
 ## 📸 Capturas de Pantalla del Componente en Uso
 
 
-
+**Visualización de Componentes <course-module> en Navegador:**
 ![Captura de la ejecucion y mostrando las tarjetas](capturas/ejecucion.png)
-
+**Código HTML de Instanciación del Componente <course-module> y uso de slots:**
 ![Captura de pantalla de múltiples course-module](capturas/html.png)
 
 ---
