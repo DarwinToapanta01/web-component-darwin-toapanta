@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 # web-component-darwin-doapanta# El tema que me tocó de Web Component es: Módulo de Curso (`<course-module>`)
 
 Dentro de este repositorio encontramos un Web Component personalizado `<course-module>` diseñado para mostrar información sobre un módulo de curso, incluyendo su título, descripción, duración y un botón de acceso. Este componente es completamente funcional, semánticamente correcto y visualmente personalizable, demostrando la reutilización de código mediante atributos.
