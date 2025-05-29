@@ -29,7 +29,7 @@ class CourseModule extends HTMLElement {
           font-size: 0.9em;
           line-height: 1.5;
         }
-        .duration {
+        .duracion {
           font-style: italic;
           color: #007bff;
           margin-bottom: 10px;
@@ -77,7 +77,7 @@ class CourseModule extends HTMLElement {
         const duracion = this.getAttribute('duracion') || 'Duración no especificada';
         const link = this.getAttribute('link') || '#';
 
-        // Asignar los valores a los elementos
+        // asigno los valores a los elementos
         this.tituloElement.textContent = titulo;
         this.descripcionElement.textContent = descripcion;
         this.duracionElement.textContent = `Duración: ${duracion}`;
