@@ -86,5 +86,5 @@ class CourseModule extends HTMLElement {
 
 }
 
-// Registrar el Custom Element
+// registro del componente personalizado
 customElements.define('course-module', CourseModule);
