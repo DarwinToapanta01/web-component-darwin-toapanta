@@ -52,9 +52,7 @@ El componente expone un `slot` con el nombre `footer-notes`. Cualquier contenido
 
 ## ⚙️ Código de Ejemplo para Reutilizar el Componente
 
-Para utilizar este componente en tu proyecto, primero asegúrate de que el archivo `course-module.js` esté disponible (por ejemplo, en la misma carpeta que tu HTML o en una carpeta `components/`).
-
-Luego, en tu archivo HTML principal, importa el componente (asegúrate de que el `type="module"` en la etiqueta `script`):
+Importamos el componente:
 
 ```html
 <!DOCTYPE html>
@@ -65,7 +63,7 @@ Luego, en tu archivo HTML principal, importa el componente (asegúrate de que el
     <title>Uso de Course Module</title>
     <script type="module" src="course-module.js"></script>
     <style>
-        /* Estilos generales para tu página si los necesitas */
+        /* damos un estilo general*/
         body { font-family: sans-serif; margin: 20px; }
         .container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
     </style>
@@ -76,6 +74,7 @@ Luego, en tu archivo HTML principal, importa el componente (asegúrate de que el
     </header>
 
     <div class="container">
+        <!-- Y aqui usamos nuestro componente creado-->
         <course-module titulo="Curso de Web Components"
             descripcion="Explora los conceptos y el ciclo de vida de los Web Components con este curso."
             duracion="2 horas"
@@ -94,4 +93,3 @@ Luego, en tu archivo HTML principal, importa el componente (asegúrate de que el
     </div>
 </body>
 </html>
->>>>>>> 000c3a8 (Actualizacion del archivo readme)
