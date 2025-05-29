@@ -60,7 +60,7 @@ Importamos el componente:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uso de Course Module</title>
+    <title>ejemplo de reusar el componente</title>
     <script type="module" src="course-module.js"></script>
     <style>
         /* damos un estilo general*/
